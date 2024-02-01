@@ -51,7 +51,7 @@ Project Setup and Run Instructions:
 
 Welcome to Task Manager App!
 To set up and run the project locally,please follow these steps:
-Clone the repository: git clone https://github.com/yourusername/your-project.git
+Clone the repository: git clone https://github.com/MithuCloud007/task-manager.git
 Install dependencies: pip install -r requirements.txt
 Apply migrations: python manage.py migrate
 Create a superuser: python manage.py createsuperuser
