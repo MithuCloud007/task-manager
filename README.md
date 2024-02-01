@@ -56,4 +56,7 @@ Install dependencies: pip install -r requirements.txt
 Apply migrations: python manage.py migrate
 Create a superuser: python manage.py createsuperuser
 Run the development server: python manage.py runserver
+
+video link:   https://drive.google.com/file/d/1JFMNTPtgAjOvw5SWauhs8tyDgsUecz3b/view?usp=drive_link
 ```
+
