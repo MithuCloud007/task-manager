@@ -2,6 +2,7 @@
 {% load static %}
 {% block content %}
 <div class="container-fluid">
+   
     <div class="row">
         <div class="col-12">
             <div class="page-title-box">
@@ -12,6 +13,23 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-10">
+            <!-- Content in the first column (if any) -->
+        </div>
+        <div class="col-md-2 d-flex align-items-end">
+            <form method="get" action="">
+                <div class="form-group mb-0">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="search_query" name="search_query" value="{{ request.GET.search_query }}" placeholder="Search">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-secondary">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div><br>
     <div class="row">
         <div class="col-lg-12">
             <div class="card">

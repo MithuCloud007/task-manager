@@ -16,3 +16,5 @@ class TaskForm(forms.ModelForm):
             'photos': forms.SelectMultiple(attrs={'class': 'form-control'}),
             
         }
+class TaskSearchForm(forms.Form):
+    search_query = forms.CharField(label='Search', required=False, widget=forms.TextInput(attrs={'class': 'form-control'}))
