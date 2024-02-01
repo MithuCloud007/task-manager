@@ -1,4 +1,4 @@
-<h1 align="center" >Foundations Of Code</h1>
+<h1 align="center" >Task Manager</h1>
 
 
 <div align="center" >
@@ -47,11 +47,13 @@ alt='Mithu'
 
 <!-- <h1 align="center" >Array CRUD(create,read,update,delete) Operation </h1> -->
 ```
-Input: num1 = 5, num2 = 10
-Output: 15
-Explanation: 342 + 465 = 807
+Project Setup and Run Instructions:
 
-Complexity Analysis
-    Time Complexity: O(1)
-    Auxiliary Space: O(1)
+Welcome to Task Manager App!
+To set up and run the project locally,please follow these steps:
+Clone the repository: git clone https://github.com/yourusername/your-project.git
+Install dependencies: pip install -r requirements.txt
+Apply migrations: python manage.py migrate
+Create a superuser: python manage.py createsuperuser
+Run the development server: python manage.py runserver
 ```
