@@ -14,6 +14,7 @@ class TaskForm(forms.ModelForm):
             'priority':  forms.Select(attrs={'class': 'form-control'}),
             'completed': forms.TextInput(attrs={'class': 'form-control'}),
             'photos': forms.SelectMultiple(attrs={'class': 'form-control'}),
+            'assign_user':  forms.Select(attrs={'class': 'form-control'}),
             
         }
 class TaskSearchForm(forms.Form):
